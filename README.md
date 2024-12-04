@@ -118,7 +118,10 @@ The project uses the following AWS services:
    **Frontend Repository**
    [Here's A Link To The Frontend Repo](https://github.com/Rohnson95/aws-amplify-frontend)
    ### Images
+  Visual Representation Of Data Sent From A Micro-Controller
   ![Graph From Webpage](./screenshots/graph.png)
+
+  This Image Displays The Card For A Sensor, Where You have Status and ID.
   ![Image of SensorCard](./screenshots/sensorcard.png)
   ### Flowchart
   ![Image of Flowchart](./screenshots/flowchart_aws.png)
