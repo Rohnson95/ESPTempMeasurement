@@ -12,8 +12,8 @@
   - [ESP32 Configuration](#esp32-configuration)
   - [AWS Configuration](#aws-configuration)
   - [React Frontend](#react-frontend)
-  - [Graphs](#graphs)
-- [License](#license)
+  - [Images](#images)
+  - [Flowchart](#flowchart)
 
 ---
 
