@@ -12,8 +12,7 @@
   - [ESP32 Configuration](#esp32-configuration)
   - [AWS Configuration](#aws-configuration)
   - [React Frontend](#react-frontend)
-- [Security Considerations](#security-considerations)
-- [Future Improvements](#future-improvements)
+  - [Graphs](#graphs)
 - [License](#license)
 
 ---
@@ -86,3 +85,35 @@ The project uses the following AWS services:
    #define AWS_CERT_CA "path/to/root-CA.pem"
    #define AWS_CERT_CRT "path/to/certificate.pem.crt"
    #define AWS_CERT_PRIVATE "path/to/private.pem.key"
+``
+
+   ### AWS Configuration
+
+1. **AWS IoT Core**:
+   - Create a new IoT thing in the AWS Management Console.
+   - Download the device certificates and root CA.
+   - Attach an IoT policy with permissions for publishing and subscribing to MQTT topics.
+
+2. **DynamoDB**:
+   - Create a table named `Telemetry` with the following schema:
+     - `device_id` (Primary Key)
+     - `timestamp` (Sort Key)
+     - Additional attributes: `temperature`, `humidity`.
+    
+3. **AWS Amplify**
+  -Initialize a new Amplify project in your React frontend:
+   ```bash
+   amplify init
+   amplify add api
+   amplify push
+   ```
+   - Connect the API to your DynamoDB table
+   
+   ### React Frontend
+1. **Install Dependencies**
+   ```bash
+   npm i
+   npm start
+   ```
+   ### Graphs
+
