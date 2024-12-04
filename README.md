@@ -121,5 +121,4 @@ The project uses the following AWS services:
   ![Graph From Webpage](./screenshots/graph.png)
   ![Image of SensorCard](./screenshots/sensorcard.png)
   ### Flowchart
-  ![Flowchart]
   ![Image of Flowchart](./screenshots/flowchart_aws.png)
