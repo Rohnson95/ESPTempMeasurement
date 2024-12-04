@@ -116,4 +116,4 @@ The project uses the following AWS services:
    npm start
    ```
    ### Graphs
-
+  ![Graph From Webpage](./screenshots/graph.png)
