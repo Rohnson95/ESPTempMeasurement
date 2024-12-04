@@ -115,5 +115,11 @@ The project uses the following AWS services:
    npm i
    npm start
    ```
-   ### Graphs
+   **Frontend Repository**
+   [Here's A Link To The Frontend Repo](https://github.com/Rohnson95/aws-amplify-frontend)
+   ### Images
   ![Graph From Webpage](./screenshots/graph.png)
+  ![Image of SensorCard](./screenshots/sensorcard.png)
+  ### Flowchart
+  ![Flowchart]
+  ![Image of Flowchart](./screenshots/flowchart_aws.png)
