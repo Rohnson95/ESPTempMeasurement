@@ -35,8 +35,6 @@ This project demonstrates a secure and scalable IoT solution for real-time tempe
 
 ## Architecture
 
-![IoT Architecture](./img/iot-architecture.png)
-
 The system consists of:
 1. **ESP32**: Collects temperature and humidity data and publishes it to AWS IoT Core.
 2. **AWS IoT Core**: Acts as a gateway to securely ingest data.
