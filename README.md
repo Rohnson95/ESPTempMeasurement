@@ -47,7 +47,7 @@ The system consists of:
 
 ### Hardware Requirements
 - ESP32 microcontroller.
-- DHT11 sensor (or DHT22 for higher precision).
+- DHT11 sensor (or DHT22 for higher precision). (Not Needed If Running The Random function inside of the Loop)
 - Breadboard and connecting wires.
 
 ### Software Requirements
